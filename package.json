@@ -1,0 +1,21 @@
+{
+  "name": "google-ai-workshop",
+  "version": "1.0.0",
+  "description": "Google's Gemini AI API provides access to a family of large language models designed for various AI tasks. The API offers three model variations:",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc && node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "dotenv": "^16.4.6",
+    "typescript": "^5.7.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1"
+  }
+}
