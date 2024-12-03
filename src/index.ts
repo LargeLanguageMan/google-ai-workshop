@@ -14,5 +14,9 @@ const prompt = `List a few popular cookie recipes using this JSON schema:
 Recipe = {'recipeName': string}
 Return: Array<Recipe>`;
 
+async function main() {
 const result = await model.generateContent(prompt);
-console.log(result.response.text());
+    console.log(result.response.text());
+}
+
+main();
